@@ -4527,6 +4527,34 @@
                                                         "level": 6,
                                                         "revocations": [],
                                                         "precursors": []
+                                                    },
+                                                    "IHCH-IDH2": {
+                                                        "code": "IHCH-IDH2",
+                                                        "color": "Green",
+                                                        "name": "IHCH-IDH2",
+                                                        "mainType": "Hepatobiliary Cancer",
+                                                        "externalReferences": {},
+                                                        "tissue": "Biliary Tract",
+                                                        "children": {},
+                                                        "parent": "IHCH-IDH",
+                                                        "history": [],
+                                                        "level": 6,
+                                                        "revocations": [],
+                                                        "precursors": []
+                                                    },
+                                                    "IHCH-IDH+": {
+                                                        "code": "IHCH-IDH+",
+                                                        "color": "Green",
+                                                        "name": "IDH1 Mutation+ PA Drivers",
+                                                        "mainType": "Hepatobiliary Cancer",
+                                                        "externalReferences": {},
+                                                        "tissue": "Biliary Tract",
+                                                        "children": {},
+                                                        "parent": "IHCH-IDH",
+                                                        "history": [],
+                                                        "level": 6,
+                                                        "revocations": [],
+                                                        "precursors": []
                                                     }
                                                 },
                                                 "parent": "IHCH",
@@ -4535,29 +4563,114 @@
                                                 "revocations": [],
                                                 "precursors": []
                                             },
-                                            "Rishab": {
-                                                "code": "Rishab",
+                                            "IHCH-KRAS": {
+                                                "code": "IHCH-KRAS",
                                                 "color": "Green",
-                                                "name": "XXX",
-                                                "mainType": "XXX",
+                                                "name": "IHCH-KRAS",
+                                                "mainType": "Hepatobiliary Cancer",
                                                 "externalReferences": {},
-                                                "tissue": "XXX",
+                                                "tissue": "Biliary Tract",
                                                 "children": {},
-                                                "parent": "XXX",
+                                                "parent": "IHCH",
                                                 "history": [],
                                                 "level": 5,
                                                 "revocations": [],
                                                 "precursors": []
                                             },
-                                            "YYYY": {
-                                                "code": "YYYY",
-                                                "color": "YYY",
-                                                "name": "YYY",
-                                                "mainType": "YYY",
+                                            "IHCH-RTKs": {
+                                                "code": "IHCH-RTKs",
+                                                "color": "Green",
+                                                "name": "IHCH-RTKs",
+                                                "mainType": "Hepatobiliary Cancer",
                                                 "externalReferences": {},
-                                                "tissue": "YY",
+                                                "tissue": "Biliary Tract",
                                                 "children": {},
-                                                "parent": "YY",
+                                                "parent": "IHCH",
+                                                "history": [],
+                                                "level": 5,
+                                                "revocations": [],
+                                                "precursors": []
+                                            },
+                                            "IHCH-BRCA1": {
+                                                "code": "IHCH-BRCA1",
+                                                "color": "Green",
+                                                "name": "IHCH-BRCA1",
+                                                "mainType": "Hepatobiliary Cancer",
+                                                "externalReferences": {},
+                                                "tissue": "Biliary Tract",
+                                                "children": {},
+                                                "parent": "IHCH",
+                                                "history": [],
+                                                "level": 5,
+                                                "revocations": [],
+                                                "precursors": []
+                                            },
+                                            "IHCH-Hypermutation": {
+                                                "code": "IHCH-Hypermutation",
+                                                "color": "Green",
+                                                "name": "IHCH Hypermutation",
+                                                "mainType": "Hepatobiliary Cancer",
+                                                "externalReferences": {},
+                                                "tissue": "Biliary Tract",
+                                                "children": {},
+                                                "parent": "IHCH",
+                                                "history": [],
+                                                "level": 5,
+                                                "revocations": [],
+                                                "precursors": []
+                                            },
+                                            "IHCH-FGFR2": {
+                                                "code": "IHCH-FGFR2",
+                                                "color": "Green",
+                                                "name": "IHCH-FGFR2",
+                                                "mainType": "Hepatobiliary Cancer",
+                                                "externalReferences": {},
+                                                "tissue": "Biliary Tract",
+                                                "children": {
+                                                    "FGFR2F": {
+                                                        "code": "FGFR2F",
+                                                        "color": "Green",
+                                                        "name": "FGFR2 Fusion",
+                                                        "mainType": "Hepatobiliary Cancer",
+                                                        "externalReferences": {},
+                                                        "tissue": "Biliary Tract",
+                                                        "children": {},
+                                                        "parent": "IHCH-FGFR2",
+                                                        "history": [],
+                                                        "level": 6,
+                                                        "revocations": [],
+                                                        "precursors": []
+                                                    },
+                                                    "FGFR2P": {
+                                                        "code": "FGFR2P",
+                                                        "color": "Green",
+                                                        "name": "FGFR2+ Potentially Actionable Drivers",
+                                                        "mainType": "Hepatobiliary Cancer",
+                                                        "externalReferences": {},
+                                                        "tissue": "Biliary Tract",
+                                                        "children": {},
+                                                        "parent": "IHCH-FGFR2",
+                                                        "history": [],
+                                                        "level": 6,
+                                                        "revocations": [],
+                                                        "precursors": []
+                                                    },
+                                                    "FGFR2M": {
+                                                        "code": "FGFR2M",
+                                                        "color": "Green",
+                                                        "name": "FGFR2 Mutations",
+                                                        "mainType": "Hepatobiliary Cancer",
+                                                        "externalReferences": {},
+                                                        "tissue": "Biliary Tract",
+                                                        "children": {},
+                                                        "parent": "IHCH-FGFR2",
+                                                        "history": [],
+                                                        "level": 6,
+                                                        "revocations": [],
+                                                        "precursors": []
+                                                    }
+                                                },
+                                                "parent": "IHCH",
                                                 "history": [],
                                                 "level": 5,
                                                 "revocations": [],
@@ -11772,7 +11885,153 @@
                                     ]
                                 },
                                 "tissue": "Lung",
-                                "children": {},
+                                "children": {
+                                    "LUSC-CYC": {
+                                        "code": "LUSC-CYC",
+                                        "color": "Gainsboro",
+                                        "name": "Lung Adenocarcinoma Cycling",
+                                        "mainType": "Non-Small Cell Lung Cancer",
+                                        "externalReferences": {},
+                                        "tissue": "Lung",
+                                        "children": {
+                                            "LUSC-CYCP": {
+                                                "code": "LUSC-CYCP",
+                                                "color": "Gainsboro",
+                                                "name": "Lung Adenocarcinoma Cycling +",
+                                                "mainType": "Non-Small Cell Lung Cancer",
+                                                "externalReferences": {},
+                                                "tissue": "Lung",
+                                                "children": {},
+                                                "parent": "LUSC-CYC",
+                                                "history": [],
+                                                "level": 5,
+                                                "revocations": [],
+                                                "precursors": []
+                                            }
+                                        },
+                                        "parent": "LUSC",
+                                        "history": [],
+                                        "level": 4,
+                                        "revocations": [],
+                                        "precursors": []
+                                    },
+                                    "LUSC-PI3K": {
+                                        "code": "LUSC-PI3K",
+                                        "color": "Gainsboro",
+                                        "name": "Lung Adenocarcinoma PI3K/mTOR",
+                                        "mainType": "Non-Small Cell Lung Cancer",
+                                        "externalReferences": {},
+                                        "tissue": "Lung",
+                                        "children": {
+                                            "LUSC-PI3K+": {
+                                                "code": "LUSC-PI3K+",
+                                                "color": "Gainsboro",
+                                                "name": "LUSC-PI3K+",
+                                                "mainType": "Non-Small Cell Lung Cancer",
+                                                "externalReferences": {},
+                                                "tissue": "Lung",
+                                                "children": {},
+                                                "parent": "LUSC-PI3K",
+                                                "history": [],
+                                                "level": 5,
+                                                "revocations": [],
+                                                "precursors": []
+                                            }
+                                        },
+                                        "parent": "LUSC",
+                                        "history": [],
+                                        "level": 4,
+                                        "revocations": [],
+                                        "precursors": []
+                                    },
+                                    "LUSC-RAS": {
+                                        "code": "LUSC-RAS",
+                                        "color": "Gainsboro",
+                                        "name": "LUSC-RAS",
+                                        "mainType": "Non-Small Cell Lung Cancer",
+                                        "externalReferences": {},
+                                        "tissue": "Lung",
+                                        "children": {
+                                            "LUSC-RAS+": {
+                                                "code": "LUSC-RAS+",
+                                                "color": "Gainsboro",
+                                                "name": "LUSC-RAS+",
+                                                "mainType": "Non-Small Cell Lung Cancer",
+                                                "externalReferences": {},
+                                                "tissue": "Lung",
+                                                "children": {},
+                                                "parent": "LUSC-RAS",
+                                                "history": [],
+                                                "level": 5,
+                                                "revocations": [],
+                                                "precursors": []
+                                            }
+                                        },
+                                        "parent": "LUSC",
+                                        "history": [],
+                                        "level": 4,
+                                        "revocations": [],
+                                        "precursors": []
+                                    },
+                                    "LUSC-RTKs": {
+                                        "code": "LUSC-RTKs",
+                                        "color": "Gainsboro",
+                                        "name": "LUSC-RTKs",
+                                        "mainType": "Non-Small Cell Lung Cancer",
+                                        "externalReferences": {},
+                                        "tissue": "Lung",
+                                        "children": {
+                                            "RTKs+": {
+                                                "code": "LUSC-RTKs+",
+                                                "color": "Gainsboro",
+                                                "name": "LUSC-RTKs+",
+                                                "mainType": "Non-Small Cell Lung Cancer",
+                                                "externalReferences": {},
+                                                "tissue": "Lung",
+                                                "children": {},
+                                                "parent": "LUSC-RTKs",
+                                                "history": [],
+                                                "level": 5,
+                                                "revocations": [],
+                                                "precursors": []
+                                            }
+                                        },
+                                        "parent": "LUSC",
+                                        "history": [],
+                                        "level": 4,
+                                        "revocations": [],
+                                        "precursors": []
+                                    },
+                                    "LUSC-HMSI": {
+                                        "code": "LUSC-HMSI",
+                                        "color": "Gainsboro",
+                                        "name": "Hypermutation/MSI",
+                                        "mainType": "Non-Small Cell Lung Cancer",
+                                        "externalReferences": {},
+                                        "tissue": "Lung",
+                                        "children": {
+                                            "HMSI+": {
+                                                "code": "LUSC-HMSI+",
+                                                "color": "Gainsboro",
+                                                "name": "LUSC-HMSI+",
+                                                "mainType": "Non-Small Cell Lung Cancer",
+                                                "externalReferences": {},
+                                                "tissue": "Lung",
+                                                "children": {},
+                                                "parent": "LUSC-HMSI",
+                                                "history": [],
+                                                "level": 5,
+                                                "revocations": [],
+                                                "precursors": []
+                                            }
+                                        },
+                                        "parent": "LUSC",
+                                        "history": [],
+                                        "level": 4,
+                                        "revocations": [],
+                                        "precursors": []
+                                    }
+                                },
                                 "parent": "NSCLC",
                                 "history": [],
                                 "level": 3,
@@ -12000,7 +12259,167 @@
                                     ]
                                 },
                                 "tissue": "Lung",
-                                "children": {},
+                                "children": {
+                                    "LUAD-CYC": {
+                                        "code": "LUAD-CYC",
+                                        "color": "Gainsboro",
+                                        "name": "Lung Adenocarcinoma Cycling",
+                                        "mainType": "Non-Small Cell Lung Cancer",
+                                        "externalReferences": {},
+                                        "tissue": "Lung",
+                                        "children": {
+                                            "LUAD-CYCP": {
+                                                "code": "LUAD-CYCP",
+                                                "color": "Gainsboro",
+                                                "name": "Lung Adenocarcinoma Cycling +",
+                                                "mainType": "Non-Small Cell Lung Cancer",
+                                                "externalReferences": {},
+                                                "tissue": "Lung",
+                                                "children": {},
+                                                "parent": "LUAD-CYC",
+                                                "history": [],
+                                                "level": 5,
+                                                "revocations": [],
+                                                "precursors": []
+                                            }
+                                        },
+                                        "parent": "LUAD",
+                                        "history": [],
+                                        "level": 4,
+                                        "revocations": [],
+                                        "precursors": []
+                                    },
+                                    "LUAD-PI3K": {
+                                        "code": "LUAD-PI3K",
+                                        "color": "Gainsboro",
+                                        "name": "Lung Adenocarcinoma PI3K/mTOR",
+                                        "mainType": "Non-Small Cell Lung Cancer",
+                                        "externalReferences": {},
+                                        "tissue": "Lung",
+                                        "children": {
+                                            "LUAD-PI3K+": {
+                                                "code": "LUAD-PI3K+",
+                                                "color": "Gainsboro",
+                                                "name": "LUAD-PI3K+",
+                                                "mainType": "Non-Small Cell Lung Cancer",
+                                                "externalReferences": {},
+                                                "tissue": "Lung",
+                                                "children": {},
+                                                "parent": "LUAD-PI3K",
+                                                "history": [],
+                                                "level": 5,
+                                                "revocations": [],
+                                                "precursors": []
+                                            }
+                                        },
+                                        "parent": "LUAD",
+                                        "history": [],
+                                        "level": 4,
+                                        "revocations": [],
+                                        "precursors": []
+                                    },
+                                    "LUAD-RAS": {
+                                        "code": "LUAD-RAS",
+                                        "color": "Gainsboro",
+                                        "name": "LUAD-RAS",
+                                        "mainType": "Non-Small Cell Lung Cancer",
+                                        "externalReferences": {},
+                                        "tissue": "Lung",
+                                        "children": {
+                                            "LUAD-RAS+": {
+                                                "code": "LUAD-RAS+",
+                                                "color": "Gainsboro",
+                                                "name": "LUAD-RAS+",
+                                                "mainType": "Non-Small Cell Lung Cancer",
+                                                "externalReferences": {},
+                                                "tissue": "Lung",
+                                                "children": {},
+                                                "parent": "LUAD-RAS",
+                                                "history": [],
+                                                "level": 5,
+                                                "revocations": [],
+                                                "precursors": []
+                                            }
+                                        },
+                                        "parent": "LUAD",
+                                        "history": [],
+                                        "level": 4,
+                                        "revocations": [],
+                                        "precursors": []
+                                    },
+                                    "LUAD-RTKs": {
+                                        "code": "LUAD-RTKs",
+                                        "color": "Gainsboro",
+                                        "name": "LUAD-RTKs",
+                                        "mainType": "Non-Small Cell Lung Cancer",
+                                        "externalReferences": {},
+                                        "tissue": "Lung",
+                                        "children": {
+                                            "RTKs+": {
+                                                "code": "LUAD-RTKs+",
+                                                "color": "Gainsboro",
+                                                "name": "LUAD-RTKs+",
+                                                "mainType": "Non-Small Cell Lung Cancer",
+                                                "externalReferences": {},
+                                                "tissue": "Lung",
+                                                "children": {},
+                                                "parent": "LUAD-RTKs",
+                                                "history": [],
+                                                "level": 5,
+                                                "revocations": [],
+                                                "precursors": []
+                                            }
+                                        },
+                                        "parent": "LUAD",
+                                        "history": [],
+                                        "level": 4,
+                                        "revocations": [],
+                                        "precursors": []
+                                    },
+                                    "LUAD-HMSI": {
+                                        "code": "LUAD-HMSI",
+                                        "color": "Gainsboro",
+                                        "name": "Hypermutation/MSI",
+                                        "mainType": "Non-Small Cell Lung Cancer",
+                                        "externalReferences": {},
+                                        "tissue": "Lung",
+                                        "children": {
+                                            "HMSI+": {
+                                                "code": "LUAD-HMSI+",
+                                                "color": "Gainsboro",
+                                                "name": "LUAD-HMSI+",
+                                                "mainType": "Non-Small Cell Lung Cancer",
+                                                "externalReferences": {},
+                                                "tissue": "Lung",
+                                                "children": {},
+                                                "parent": "LUAD-HMSI",
+                                                "history": [],
+                                                "level": 5,
+                                                "revocations": [],
+                                                "precursors": []
+                                            }
+                                        },
+                                        "parent": "LUAD",
+                                        "history": [],
+                                        "level": 4,
+                                        "revocations": [],
+                                        "precursors": []
+                                    },
+                                    "XXX": {
+                                        "code": "XXX",
+                                        "color": "XXX",
+                                        "name": "XXX",
+                                        "mainType": "XXX",
+                                        "externalReferences": {},
+                                        "tissue": "XXX",
+                                        "children": {},
+                                        "parent": "XXX",
+                                        "history": [],
+                                        "level": 4,
+                                        "revocations": [],
+                                        "precursors": []
+                                    }
+                                },
                                 "parent": "NSCLC",
                                 "history": [],
                                 "level": 3,

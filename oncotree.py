@@ -27,12 +27,16 @@ with open("oncotree.json") as json_file:
     data = json.load(json_file)
     numLevel = int(input("What level is the parent function?  "))
 
+valid_input = False
+while not valid_input:
+        getCode = input("Enter parent code: ")
+        parents = []
+        parents = search_field_recursive(data, getCode, parents)
+        if not parents:
+                print(f"Parent code '{getCode}' not found in the data. Input again: ")
+        else:
+                valid_input = True
 
-getCode = input("Enter parent code: ")
-parents = []
-parents = search_field_recursive(data, getCode, parents)
-print(parents[0])
-print(len(parents[0]))
 
 if numLevel == 1:
         temp = data["TISSUE"]["children"][parents[0][2]]["children"]
@@ -53,7 +57,14 @@ elif numLevel == 6:
         temp = data["TISSUE"]["children"][parents[0][2]]["children"][parents[0][4]]["children"][parents[0][6]]["children"][parents[0][8]]["children"][parents[0][10]]["children"][parents[0][12]]["children"]
 
 
-newCode = input("Enter code of new code: ")
+exists = False
+while not exists:
+        newCode = input("Enter code of new code: ")
+        if search_field_recursive(data, newCode):
+                print("Error: New code already exists. Try again: ")
+        else:
+                exists = True
+
 newColor = input("Enter color of new color: ")
 newName = input("Enter name of new name: ")
 newMainType = input("Enter name of new mainType: ")
